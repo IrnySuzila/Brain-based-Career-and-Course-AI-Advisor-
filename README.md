@@ -1,11 +1,14 @@
-<p align="center">
-<b># BRAIN-BASED CAREER AND COURSE AI ADVISOR</b><br><br>
+<h1 align="center">
+<b># BRAIN-BASED CAREER AND COURSE AI ADVISOR</b>
+</h1><br><br>
 <p align="center">
 The Brain-Based Career and Course AI Advisor is suitable for secondary school student and SPM/STPM leavers
 to choose suitable career based on their dominance brain-hemisphere and course to take in University.
 <p align="center">
   
-  ![This is Brain-based Career and Course AI Advisor ](Apps%20Logo.PNG)
+<p align="center">
+  <img src="Apps Logo.PNG">
+</p>
 
 <br>
 <p align="center">
