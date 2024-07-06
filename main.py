@@ -10,7 +10,7 @@ client = OpenAI(api_key=st.secrets['OPENAI_SECRET_KEY'])
 st.image("Apps Logo.png")
 
 # Display welcome
-#st.write('Welcome to Brain-based Career and Course Advisor AI App!')
+st.write('Welcome to Brain-based Career and Course Advisor AI App!')
 
 # Define the prompt
 prompt = """
