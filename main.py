@@ -62,7 +62,7 @@ class BrainBasedCareerAdvisor:
     def __init__(self):
         self.questions = [
             "1) Do you prefer a) working with numbers or b) creating art?",
-            "2) What are your favorite activities, a) like drawing or b) solving puzzles?",
+            "2) What are your favorite activities, a) like solving puzzles or b) drawing?",
             "3) Do you enjoy a) reading or b) watching movie?",
             "4) Do you like to a) follow instructions or b) create your own way of doing things?",
             "5)Do you enjoy a) logic games or b) creative storytelling?",
