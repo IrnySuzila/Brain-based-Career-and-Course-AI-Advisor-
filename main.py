@@ -193,7 +193,7 @@ def main():
                   st.write(f"  - {uni} ")
 
 # Title of the web application
-    st.write('Would you like to try Brain-based Carer and Course Advisor AI App or you want to use this web application? Click the button if you want to communicate with AI advisor.')
+    st.write('<br><br>Would you like to try Brain-based Carer and Course Advisor AI App or you want to use this web application? Click the button if you want to communicate with AI advisor.', unsafe_allow_html=True)
     
     # URL to display
     url = "https://chatgpt.com/g/g-tPedkR3aF-brain-based-career-advisor"
