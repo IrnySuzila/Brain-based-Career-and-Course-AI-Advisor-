@@ -24,8 +24,8 @@ response = client.chat.completions.create(
     messages=[{
               "role":"system",
               "content":prompt
-             }
-            ],
+         },
+          ],
           max_tokens=300
       )
 
@@ -50,11 +50,6 @@ response = client.chat.completions.create(
 
 #  Brain = Brain_response.choices[0].message.content
  # return Brain
-
-#print(response.choices[0].message.content)
-
-#msg = "Would you like to try brain-based Carer and Course Advisor AI App?"
-#response = requests.get('https://chatgpt.com/g/g-tPedkR3aF-brain-based-career-advisor')
 
 import streamlit as st
 
@@ -117,7 +112,7 @@ class BrainBasedCareerAdvisor:
             'Information Technology': ['UNISEL', 'UTM', 'UM', 'UiTM'],
             'Data Science': ['UNISEL', 'UTM', 'UM', 'Taylor\'s University'],
             'Animation' : ['UNISEL', 'Multimedia University'],
-            'Multimedia' : ['UNISEL', 'MMU', 'UM', 'UiTM'],
+            'Multimedia' : ['UNISEL', 'UTM', 'UM', 'UiTM'],
             'Communication': ['UNISEL', 'UiTM','UTM','APU'],
             'Graphic Design': ['UNISEL', 'UiTM'],
             'Research': ['UNISEL', 'UTM', 'UM', 'UiTM'],
@@ -161,8 +156,8 @@ advisor = BrainBasedCareerAdvisor()
 
 def main():
     #st.title("Brain-Based Career Advisor")
-    st.markdown(f"<br>", unsafe_allow_html=True)
-    st.write("Welcome to Brain-based Career and Course Advisor Web Application. I will ask you 10 questions to determine your brain dominance and suggest suitable careers and courses for you.")
+
+    st.write("Welcome to Brain-based Career and Course Advisor. I will ask you 10 questions to determine your brain dominance and suggest suitable careers and courses for you.")
 
     answers = []
     for i, question in enumerate(advisor.questions):
@@ -191,21 +186,6 @@ def main():
                    st.write("  Universities offering this course:")
                 for uni in universities[course]:
                   st.write(f"  - {uni} ")
-
-# Title of the web application
-st.write('Would you like to try Brain-based Carer and Course Advisor AI App or you want to use this web application? Click the button if you want to communicate with AI advisor.')
-
-# URL to display
-url = "https://chatgpt.com/g/g-tPedkR3aF-brain-based-career-advisor"
-
-# Display the URL
-#st.write(f"[AI Brain-based Career and Course Advisor]({url})")
-
-# Or you can use st.markdown for more customization
-#st.markdown(f"[AI Brain-based Career and Course Advisor]({url})", unsafe_allow_html=True)
-
-# Display an interactive button that links to the URL
-st.markdown(f"[Click this to try Brain-based Carer and Course Advisor AI App]({url})", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
