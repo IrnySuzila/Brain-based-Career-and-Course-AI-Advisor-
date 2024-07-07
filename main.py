@@ -193,19 +193,19 @@ def main():
                   st.write(f"  - {uni} ")
 
 # Title of the web application
-st.write('Would you like to try Brain-based Carer and Course Advisor AI App or you want to use this web application? Click the button if you want to communicate with AI advisor.')
-
-# URL to display
-url = "https://chatgpt.com/g/g-tPedkR3aF-brain-based-career-advisor"
-
-# Display the URL
-#st.write(f"[AI Brain-based Career and Course Advisor]({url})")
-
-# Or you can use st.markdown for more customization
-#st.markdown(f"[AI Brain-based Career and Course Advisor]({url})", unsafe_allow_html=True)
-
-# Display an interactive button that links to the URL
-st.markdown(f"[Click this to try Brain-based Carer and Course Advisor AI App]({url})", unsafe_allow_html=True)
+    st.write('Would you like to try Brain-based Carer and Course Advisor AI App or you want to use this web application? Click the button if you want to communicate with AI advisor.')
+    
+    # URL to display
+    url = "https://chatgpt.com/g/g-tPedkR3aF-brain-based-career-advisor"
+    
+    # Display the URL
+    #st.write(f"[AI Brain-based Career and Course Advisor]({url})")
+    
+    # Or you can use st.markdown for more customization
+    #st.markdown(f"[AI Brain-based Career and Course Advisor]({url})", unsafe_allow_html=True)
+    
+    # Display an interactive button that links to the URL
+    st.markdown(f"[Click this to try Brain-based Carer and Course Advisor AI App]({url})", unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
